@@ -1,0 +1,11 @@
+{
+    "PORT":5000,
+    "DB_URL":"mongodb+srv://omer:omer@cluster.nolm1.mongodb.net/fitnesss",
+    "EMAIL":"syedomerali2006@gmail.com",
+    "Password":"kxpnffcyrezabekc",
+    "TWILIO_NUMBER": "+18597128786",
+    "TWILIO_SID": "AC824e7fe9bc1f5ad075290e95a3a88230",
+    "TWILIO_TOKEN": "47874dfc422795ca0b504458bd882194",
+    "JWT_SECRET":"omer123",
+    "SERVER_URL":"http://localhost:5000"
+}

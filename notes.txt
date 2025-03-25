@@ -1,0 +1,23 @@
+first install typescript 
+sudo apt update 
+npm install -g typescript
+tsc -v 
+Pretty TypeScript Errors
+
+mkdir typescript
+cd typescript 
+mkdir server 
+cd server 
+npm init -y 
+tsc --init 
+npm i express jsonwebtoken 
+
+npm i -D typescript @types/express @types/jonwebtoken
+
+npm i jsonwebtoken 
+npm i @types/jsonwebtoken 
+
+mkder config in the server folder 
+mkdir src 
+mkdir utils controlers  models 
+cd 
