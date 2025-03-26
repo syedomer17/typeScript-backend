@@ -10,6 +10,6 @@ app.get("/",(req:Request,res:Response) : void=>{
     res.json({message : "heloo"})
 })
 
-app.listen(PORT,()=>{
+app.listen(Number(PORT),()=>{
     console.log("server is running at localhost:5000")
 })
