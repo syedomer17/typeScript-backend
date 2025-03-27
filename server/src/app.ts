@@ -2,6 +2,8 @@ import express,{Request,Response} from "express";
 import config from "config"
 import "./utils/dbConnect"
 
+
+
 const PORT : string = config.get<string>("PORT") 
 
 const app = express();
