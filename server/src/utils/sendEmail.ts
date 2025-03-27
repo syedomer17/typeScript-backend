@@ -32,7 +32,7 @@ async function sendEmail(emailData: { text?: string; subject: string; to: string
         });
 
        // Yaha await wait karega email sent hone tak
-       console.log(`✅ Email sent successfully to ${emailData.to}: ${(await info).messageId}`);
+       console.log(`✅ Email sent successfully to ${emailData.to}: ${info.messageId}`);
     } catch (error) {
         console.log(error);
     }
